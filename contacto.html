@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Los Exoplanetas</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body id="pagina-exoplanetas">
+    <header class="header-wireframe">
+        <img src="THINKING.png" alt="Thinking Space Logo" class="logo-img">
+        <h1 class="titulo-principal">CONTACTO</h1>
+    </header>
+
+    <main class="contenedor-principal">
+        <div class="contacto-header">
+            <div class="vaiven">
+                <p class="correo-texto">
+                    CORREO: <span>zaidbernal41@gmail.com</span>
+                </p>
+            </div>
+
+            <div class="redes-sociales">
+                <a href="#"><img src="IMG_90a5ce89-5f55-4415-861d-1ed1209e0d0f.png" alt="Facebook"></a>
+                <a href="#"><img src="IMG_6c21ea9c-c793-4639-9ead-480b073c85de.jpg" alt="Instagram"></a>
+                <a href="#"><img src="IMG_c4da9e99-0c27-415f-8ae2-a295ce5506c8_edit_764120612528196.png" alt="TikTok"></a>
+            </div>
+        </div>
+
+        <section class="caja-informacion caja-formulario">
+            <div class="vaiven">
+                <h2>FORMULARIO</h2>
+            </div>
+
+            <form onsubmit="event.preventDefault(); alert('¡Formulario enviado con éxito!');" class="formulario-contacto">
+                <div class="campo-grupo">
+                    <label for="pareci">¿Qué te pareció?</label>
+                    <input type="text" id="pareci" required class="input-estilo">
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="mejorar">¿Qué puedo mejorar?</label>
+                    <input type="text" id="mejorar" required class="input-estilo">
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="sugerencia">Escribe una sugerencia</label>
+                    <textarea id="sugerencia" rows="3" required class="input-estilo textarea-estilo"></textarea>
+                </div>
+
+                <div class="boton-contenedor">
+                    <button type="submit" class="btn-navegacion btn-enviar">ENVIAR</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-wireframe">
+        <span class="numero-pagina">4</span>
+        <div class="footer-botones">
+            <a href="index.html" class="btn-navegacion">VOLVER AL INICIO</a>
+            <a href="informacionprincipal.html" class="btn-navegacion">INFORMACION PRINCIPAL</a>
+        </div>
+        <div class="creditos-footer">
+            <p>Luis Zaid Bernal Madrid | 5°B - Programación</p>
+            <p>Maestra: Claudia Iriarte | Turno Vespertino</p>
+        </div>
+    </footer>
+</body>
+</html>
